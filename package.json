@@ -1,0 +1,37 @@
+{
+	"name": "frenchpatatesyntax",
+	"displayName": "FrenchPatateSyntax",
+	"description": "A syntax highlighting",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "frenchpatate",
+				"aliases": [
+					"FrenchPatate",
+					"frenchpatate"
+				],
+				"extensions": [
+					".fp"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "frenchpatate",
+				"scopeName": "source.fp",
+				"path": "./syntaxes/frenchpatate.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 7407
+	}
+}
