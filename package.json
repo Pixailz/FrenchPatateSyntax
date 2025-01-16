@@ -3,6 +3,11 @@
 	"displayName": "FrenchPatateSyntax",
 	"description": "A syntax highlighting",
 	"version": "0.0.1",
+	"publisher": "Pixailz",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Pixailz/FrenchPatateSyntax"
+	},
 	"engines": {
 		"vscode": "^1.96.0"
 	},

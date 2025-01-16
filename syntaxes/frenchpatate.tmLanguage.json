@@ -43,7 +43,7 @@
 		"integers": {
 			"patterns": [
 				{
-					"match": "(0x)([0-9a-fA-F]+)",
+					"match": "\\b(0x)([0-9a-fA-F]+)\\b",
 					"captures": {
 						"1": {
 							"name": "storage.type.hex.frenchpatate"
@@ -54,7 +54,7 @@
 					}
 				},
 				{
-					"match": "(0b)([0-1]+)",
+					"match": "\\b(0b)([0-1]+)\\b",
 					"captures": {
 						"1": {
 							"name": "storage.type.bin.frenchpatate"
@@ -65,7 +65,7 @@
 					}
 				},
 				{
-					"match": "[0-9]+",
+					"match": "\\b[0-9]+\\b",
 					"name": "constant.numeric.dec.frenchpatate"
 				}
 			]
