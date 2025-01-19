@@ -43,7 +43,7 @@
 		"integers": {
 			"patterns": [
 				{
-					"match": "\\b(0x)([0-9a-fA-F]+)\\b",
+					"match": "\\b(0[xX])((_?[0-9a-fA-F])+)\\b",
 					"captures": {
 						"1": {
 							"name": "storage.type.hex.frenchpatate"
@@ -54,7 +54,7 @@
 					}
 				},
 				{
-					"match": "\\b(0b)([0-1]+)\\b",
+					"match": "\\b(0[bB])((_?[01])+)\\b",
 					"captures": {
 						"1": {
 							"name": "storage.type.bin.frenchpatate"
@@ -65,7 +65,7 @@
 					}
 				},
 				{
-					"match": "\\b[0-9]+\\b",
+					"match": "\\b(_?[0-9])+\\b",
 					"name": "constant.numeric.dec.frenchpatate"
 				}
 			]
@@ -114,7 +114,7 @@
 		"instructions": {
 			"patterns": [
 				{
-					"match": "\\b(NOP|MOV|ADD|HLT)\\b",
+					"match": "\\b(NOP|MOV|ADD|SUB|AND|OR|XOR|NOT|SHL|SHR|HLT)\\b",
 					"name": "entity.name.tag.instruction.frenchpatate"
 				}
 			]
