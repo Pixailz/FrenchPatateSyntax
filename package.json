@@ -2,6 +2,7 @@
 	"name": "frenchpatatesyntax",
 	"displayName": "FrenchPatateSyntax",
 	"description": "A syntax highlighting",
+    "icon": "asset/ico.png",
 	"version": "0.0.2",
 	"publisher": "Pixailz",
 	"repository": {

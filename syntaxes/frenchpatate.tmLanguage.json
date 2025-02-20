@@ -114,8 +114,24 @@
 		"instructions": {
 			"patterns": [
 				{
-					"match": "\\b(NOP|MOV|ADD|SUB|AND|OR|XOR|NOT|SHL|SHR|HLT)\\b",
-					"name": "entity.name.tag.instruction.frenchpatate"
+					"match": "\\b(NOP|MOV|HLT)\\b",
+					"name": "entity.name.tag.instruction.base.frenchpatate"
+				},
+				{
+					"match": "\\b(ADD|SUB|AND|OR|XOR|NOT|SHL|SHR)\\b",
+					"name": "entity.name.tag.instruction.alu.frenchpatate"
+				},
+				{
+					"match": "\\b(JMP|JPZ|JPC)\\b",
+					"name": "entity.name.tag.instruction.jump.frenchpatate"
+				},
+				{
+					"match": "\\b(PUSH|POP|JPS|RTS)\\b",
+					"name": "entity.name.tag.instruction.stack.frenchpatate"
+				},
+				{
+					"match": "\\b(INP|RAND|RENDER)\\b",
+					"name": "entity.name.tag.instruction.other.frenchpatate"
 				}
 			]
 		},
